@@ -1,0 +1,29 @@
+@import '../../App.scss';
+
+.create-user {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    width: 300px;
+    margin: 16px;
+    min-height: 45vh;
+  
+    @media (max-width: 768px) {
+      width: 100%;
+      min-height: 35vh;
+    }
+    cursor: pointer;
+    
+    .create-user-icon {
+        margin-bottom: 30px;
+    }
+
+}
+.create-user:hover {
+    background-color: darken($clr-white, 1%);
+    box-shadow: rgba(51, 51, 52, 0.2) 10px 8px 24px;
+  }
