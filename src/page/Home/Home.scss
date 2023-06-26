@@ -1,0 +1,8 @@
+@import "../../App.scss";
+
+.usuarios {
+    display: grid;
+    row-gap: 0px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 0.9fr));
+    grid-gap: 1rem;
+}
